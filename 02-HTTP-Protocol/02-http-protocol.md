@@ -75,7 +75,7 @@
 - Presentation Layer: Handles data formatting, encryption/decryption, and compression.
 - Application Layer: Provides network services directly to applications such as web browsers and email clients.
 
-  ![OSI Models Layers](./reference-images/02-7-OSI-Models-Layers.png)
+  ![OSI Models Layers](./reference-images/02-7-osi-models-layers.png)
 
 > Key Takeaways: HTTP is underlying technology for sending and receiving data between client and server.
 

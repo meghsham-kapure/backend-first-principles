@@ -1,6 +1,6 @@
 # Serialization & Deserialization
 
-![Data Sharing between Backend and Frontend](reference-images/04-serialization-&-deserialization.png)
+![Data Sharing between Backend and Frontend](reference-images/04-serialization-and-deserialization.png)
 
 ## Problem Statement
 

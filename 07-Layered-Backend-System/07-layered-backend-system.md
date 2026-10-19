@@ -2,7 +2,7 @@
 
 ## Flow of Request and Response Cycle
 
-1. Client Request
+1. Client Request:
    - The client sends a request to the server.
 
 2. DNS Resolution (forward):

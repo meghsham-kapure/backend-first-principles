@@ -2,7 +2,7 @@
 
 ## Flow of MVC architecture for APIs
 
-![Flow of MVC architecture for APIs](./reference-images/06-MVC-APIs-Flow.png)
+![Flow of MVC architecture for APIs](./reference-images/06-mvc-apis-flow.png)
 
 1. User using the View (Frontend Application UI) sends request to the Controller (Backend API).
 2. Controller receives the request, deserializes data to compatible format and validates the data and convert it to model object, it also transforms the data if needed.
