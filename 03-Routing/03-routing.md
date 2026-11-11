@@ -109,3 +109,17 @@
 Solution:
 We can add version number / names to the URL to indicate which version of API is being used like f or old API version we can user `/api/products/v1` and mark them as deprecated so other developers can still use them and start migrating to new API version in upcoming updates. For new API version we can use `/api/products/v2`
 After this `api/products/v1` will serve the product list till the is deprecated and `api/products/v2` will serve the product object.
+
+## Semantic Versioning (SemVer)
+
+Semantic Versioning is a versioning scheme in the format `MAJOR.MINOR.PATCH` (for example, `2.4.1`) that communicates the type of change in a release.
+
+- MAJOR: Incremented for breaking changes that are not backward compatible.
+- MINOR: Incremented when backward-compatible functionality is added.
+- PATCH: Incremented for backward-compatible bug fixes.
+
+### In API versioning
+
+- Consumers can tell from the version number whether upgrading is safe.
+- Only a MAJOR bump should require clients to change their code, so it is usually exposed in the API (for example, `/v1/`, `/v2/`).
+- MINOR and PATCH changes are typically released without changing the public API version, since they don't break existing clients.
